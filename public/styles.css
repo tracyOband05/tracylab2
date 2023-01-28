@@ -1,0 +1,58 @@
+body{
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #a4d1f0;
+    margin: 0;
+    
+
+}
+
+ul li{
+    float: left;
+    /* padding: 15px */
+
+
+
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: rgb(0, 8, 8);
+    
+} 
+
+li a:hover{
+    background-color: rgb(203, 170, 235);
+    /* text-decoration: underline; */
+    color: white; /*esto le cambia el color al texto para que se vea mejor*/
+}
+
+li a:active{
+    text-decoration: underline;
+}
+
+li:last-child{
+    margin-left: 120px;
+    border: 1px solid bisque;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div{
+    width: 20%;
+    margin: 5px;
+    border: 2px solid black;
+    height: 40%;
+    display:block;
+    float: left; 
+}
+
+#p1{
+    background-color: rgb(184, 184, 236);
+    width: 50%;
+    height: 40px;
+}
