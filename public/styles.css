@@ -37,7 +37,7 @@ li a:active{
 
 li:last-child{
     margin-left: 120px;
-    border: 1px solid bisque;
+    border: 10px solid bisque;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
